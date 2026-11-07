@@ -1,4 +1,4 @@
-package id.stanzz.pracbystanzz;
+package id.stanzz.pracbystanzz ;
 
 import net.md_5.bungee.api.ChatColor;
 import org.bukkit.*;
