@@ -1,0 +1,26 @@
+name: PracByStanzz
+version: 2.0.0
+main: id.stanzz.pracbystanzz.PracByStanzz
+api-version: '1.21'
+softdepend: [Citizens]
+author: Stanzz
+description: Practice PvP, editable kits, matchmaking, TPA, scoreboard and Citizens player bots.
+commands:
+  kit:
+    description: Ambil atau simpan kit
+    usage: /kit <slot|edit|save>
+  kitadmin:
+    description: Admin membuat dan mengatur kit
+    usage: /kitadmin <set|delete|list> <slot>
+  rtp: {description: Teleport acak}
+  rtpq: {description: Antrean matchmaking PvP}
+  tpa: {description: Minta teleport ke pemain, usage: '/tpa <player>'}
+  tpaccept: {description: Terima permintaan TPA}
+  tpdeny: {description: Tolak permintaan TPA}
+  tpacancel: {description: Batalkan permintaan TPA}
+  practicebot:
+    description: Kelola NPC bot practice
+    usage: /practicebot <spawn|remove>
+permissions:
+  pracbystanzz.admin: {default: op}
+  pracbystanzz.use: {default: true}

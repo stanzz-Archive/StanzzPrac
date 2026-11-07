@@ -1,0 +1,23 @@
+rtp:
+  radius: 5000
+  cooldown-seconds: 30
+  max-attempts: 40
+queue:
+  countdown-seconds: 3
+  arena-world: ''
+tpa:
+  timeout-seconds: 60
+scoreboard:
+  title: '&b&lPRACTICE'
+  lines:
+    - '&7&m----------------'
+    - '&fPlayer: &b%player%'
+    - '&fOnline: &b%online%'
+    - '&fQueue: &b%queue%'
+    - '&7&m----------------'
+bot:
+  name: '&cPractice Bot'
+  health: 40
+  attack-damage: 5
+  attack-period-ticks: 20
+  refill-totem: true
